@@ -7,7 +7,10 @@
   ],
   "license": "MIT",
   "keywords": [
-    "next"
+    "loading",
+    "angular",
+    "isloading",
+    "$http"
   ],
   "homepage": "https://github.com/afeiship/angular-isloading",
   "moduleType": [
