@@ -42,9 +42,6 @@ AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had 
 
 + description:
 
-  - <div class="loading-widget"
   -      isloading                  <!--1.attach the directive-->
   -      loading="loading"          <!--2.write the scope.loading to the app.$rootScope-->
   -      data-visible="{{loading}}" <!--2.read loading props for CSS-->
-  - >
-  - </div>
