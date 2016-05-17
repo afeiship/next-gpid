@@ -27,7 +27,7 @@ AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had 
     var s4 = $http.get('http://www.qq.com');
     var s5 = $http.get('http://www.hao123.com');
 
-    //you need a svn if you're a chinese
+    //you need a VPN if you're a Chinese(Thanks to the GFW)
     var s6 = $http.get('https://www.google.com/');
 
 
