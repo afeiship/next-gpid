@@ -3,6 +3,38 @@ AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had 
 
 
 ##usage:
++ css part:
+```css
+body {
+  font-family: 'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.loading-widget {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.loading-widget,
+.loading-widget[data-visible] {
+  display: none;
+}
+
+.loading-widget[data-visible=true] {
+  display: block;
+}
+
+.loading-widget img {
+  width: 100%;
+  height: 100%;
+}
+```
 + html part:
 ```html
 <div class="loading-widget"
