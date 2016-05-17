@@ -9,7 +9,7 @@
   'use strict';
 
   angular.module('nx.widget')
-    .directive('isloading', ['$http','$timeout', function ($http,$timeout) {
+    .directive('isloading', ['$http', function ($http) {
       return {
         restrict: 'A',
         scope: {
@@ -19,9 +19,7 @@
           scope.$watch(function () {
             return $http.pendingRequests.length > 0;
           }, function (inValue) {
-            $timeout(function(){
-              scope.loading = inValue;
-            })
+            scope.loading = inValue;
           });
         }
       };
