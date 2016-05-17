@@ -48,4 +48,5 @@ AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had 
 
 
 ##resources:
++ http://g00glen00b.be/fun-angularjs-http-loading-indicator/
 + http://stackoverflow.com/questions/15529496/a-way-to-know-when-angular-http-is-requesting/37271737
