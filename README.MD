@@ -45,3 +45,7 @@ AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had 
   -      isloading                  `<!--1.attach the directive-->`
   -      loading="loading"          `<!--2.write the scope.loading to the app.$rootScope-->`
   -      data-visible="{{loading}}" `<!--2.read loading props for CSS-->`
+
+
+##resources:
++ http://stackoverflow.com/questions/15529496/a-way-to-know-when-angular-http-is-requesting/37271737
