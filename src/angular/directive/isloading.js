@@ -2,16 +2,12 @@
   'use strict';
 
   angular.module('nx.widget')
-    .directive('isloading', ['$http', function ($http) {
+    .directive('isloading', ['$http', 'nxIsLoading', function ($http, nxIsLoading) {
       return {
         restrict: 'A',
-        scope: {
-          loading: '='
-        },
+        scope: true,
         link: function (scope, elem) {
-          scope.$watch(function () {
-            return $http.pendingRequests.length > 0;
-          }, function (inValue) {
+          scope.$watch(nxIsLoading.isLoading, function (inValue) {
             scope.loading = inValue;
           });
         }

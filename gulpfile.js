@@ -13,7 +13,8 @@ var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var scripts = [
   'src/angular/main.js',
-  'src/angular/directive/isloading.js'
+  'src/angular/directive/isloading.js',
+  'src/angular/service/isloading.js'
 ];
 
 
