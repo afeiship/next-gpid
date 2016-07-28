@@ -1,7 +1,9 @@
 {
   "name": "angular-isloading",
   "description": "AngularJS directive that provide `a boolean value` to know $http hasn&#39;t had a response or not.",
-  "main": "dist",
+  "main": [
+    "dist/js/angular-isloading.js"
+  ],
   "authors": [
     "afei"
   ],
