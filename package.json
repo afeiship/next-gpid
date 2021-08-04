@@ -1,6 +1,6 @@
 {
   "name": "@afeiship/next-rails-http-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rails http schema.",
   "homepage": "https://github.com/afeiship/next-rails-http-schema",
   "author": {
@@ -41,7 +41,14 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@afeiship/next-rails-fetch": "^1.0.1",
+    "@afeiship/next-rails-fetch": "^1.0.3",
     "@jswork/http-schema": "^1.0.1"
-  }
+  },
+  "keywords": [
+    "next",
+    "rails",
+    "http",
+    "schema",
+    "api"
+  ]
 }
