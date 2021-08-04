@@ -17,7 +17,6 @@ import '@afeiship/next-rails-http-schema';
 
 const options = {
   external: {
-    baseUrl: 'https://www.fasimi.com',
     username: 'admin',
     password: '123123'
   },
