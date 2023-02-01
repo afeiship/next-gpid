@@ -3,8 +3,7 @@
   var nx = global.nx || require('@jswork/next');
 
   nx.gpid = function (inUrl) {
-    if (!inUrl) return '';
-    var url = inUrl.replace('http://', 'https://');
+    var url = inUrl || location.href || '';
     var filename = url.substring(url.lastIndexOf('/') + 1);
     return filename.split('.')[0];
   };
