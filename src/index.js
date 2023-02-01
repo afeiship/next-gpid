@@ -1,16 +1,15 @@
 (function () {
   var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
-  var httpSchema = require('@jswork/http-schema').default;
 
-  require('@afeiship/next-rails-fetch');
-
-  nx.railsHttpSchema = function (inConfig, inOptions) {
-    const http = nx.RailsFetch.getInstance(inOptions);
-    return httpSchema(inConfig, http);
+  nx.gpid = function (inUrl) {
+    if (!inUrl) return '';
+    var url = inUrl.replace('http://', 'https://');
+    var filename = url.substring(url.lastIndexOf('/') + 1);
+    return filename.split('.')[0];
   };
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.railsHttpSchema;
+    module.exports = nx.gpid;
   }
 })();

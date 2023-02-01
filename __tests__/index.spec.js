@@ -1,13 +1,9 @@
-(function () {
-  require('../src');
+require('../src');
 
-  describe('api.basic test', () => {
-    test('nx.railsHttpSchema', function () {
-      const obj1 = { name: 'fei' };
-      const obj2 = { email: '1290657123@qq.com' };
-      const result = {};
-      nx.railsHttpSchema(result, obj1, obj2);
-      expect(result.name, obj1.name).toBe(null);
-    });
+describe('api.basic test', () => {
+  test('nx.gpid basic case', function () {
+    var url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
+    var res = nx.gpid(url);
+    expect(res).toBe('googlelogo_color_272x92dp');
   });
-})();
+});

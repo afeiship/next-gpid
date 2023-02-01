@@ -1,15 +1,15 @@
 {
-  "name": "@afeiship/next-rails-http-schema",
-  "version": "1.0.1",
-  "description": "Rails http schema.",
-  "homepage": "https://github.com/afeiship/next-rails-http-schema",
+  "name": "@jswork/next-gpid",
+  "version": "1.0.0",
+  "description": "Get picture uid from url.",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
   "scripts": {
     "build": "gulp",
-    "test": "node __tests__/debug.js",
+    "test": "jest",
     "start": "node ./express.js",
     "release": "release-it"
   },
@@ -19,7 +19,7 @@
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "@jswork/gulp-pkg-header": "^1.0.4",
-    "@jswork/next": "^1.0.6",
+    "@jswork/next": "^1.0.9",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -37,18 +37,12 @@
     "uglify-save-license": "^0.4.1"
   },
   "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
-  "dependencies": {
-    "@afeiship/next-rails-fetch": "^1.0.3",
-    "@jswork/http-schema": "^1.0.1"
-  },
-  "keywords": [
-    "next",
-    "rails",
-    "http",
-    "schema",
-    "api"
-  ]
+  "boilerplate": "boilerplate-next-package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/boilerplate-next-package.git"
+  }
 }
