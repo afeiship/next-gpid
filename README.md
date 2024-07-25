@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @jswork/next-gpid
+yarn add @jswork/next-gpid
 ```
 
 ## usage
