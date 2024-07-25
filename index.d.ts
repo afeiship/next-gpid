@@ -1,3 +1,3 @@
 interface NxStatic {
-  gpid: any;
+  gpid: (url:string) => string;
 }
