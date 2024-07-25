@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-gpid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get picture uid from url.",
   "homepage": "https://js.work",
   "files": [
@@ -53,5 +53,13 @@
     "src/**/*.{js,jsx}": [
       "npm run pretty"
     ]
-  }
+  },
+  "keywords": [
+    "next",
+    "id",
+    "image",
+    "picture",
+    "pid",
+    "uid"
+  ]
 }
