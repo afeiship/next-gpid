@@ -6,8 +6,8 @@ nx.gpid = function (inUrl) {
   return filename.split('.')[0];
 };
 
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = nx.gpid;
-}
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.gpid;
+// }
 
 export default nx.gpid;
